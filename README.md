@@ -5,15 +5,6 @@ A static comp re-creation
 upload a gif or video or jpg
 
 
-## Install/Setup instructions
-* 
-* 
-* 
-* 
-
-## How to use the app
-walkthrough of how to use the app
-
 ## Author
 <table>
     <tr>
