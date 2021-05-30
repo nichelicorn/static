@@ -12,19 +12,6 @@ body {
   margin: 0;
 }
 
-.smol-btn {
-  height: 4em;
-  width: 4em;
-  margin: 0.7em;
-  border-radius: 25px;
-  background-color: #fff;
-}
-
-.smol-btn:hover {
-  box-shadow: 0 0 25px turquoise;
-}
-
-
 .smol-nav-hdr,
 .hdr-nav,
 .smol-content-hdr {
@@ -34,6 +21,26 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 4em;
+  /* background-color: rosybrown; */
+}
+
+.smol-btn {
+  height: 2em;
+  width: 2em;
+  margin: 0.5em;
+  border-radius: 25px;
+  background-color: #fff;
+  font-size: 150%;
+  border: 2px solid black;
+}
+
+.smol-btn:hover {
+  box-shadow: 0 0 25px turquoise;
+  border: 2px solid cornflowerblue;
+}
+
+.smol-content-hdr {
+
 }
 
 .data-sec {
