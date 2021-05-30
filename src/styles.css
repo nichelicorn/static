@@ -55,10 +55,12 @@ body {
   flex-direction: row;
   justify-content: space-around;
   height: 12em;
+  padding: .5em;
 }
 
 .data-article {
   width: 50%;
+  padding: .5em;
 }
 
 .data-graphic {
