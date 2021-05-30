@@ -48,10 +48,20 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 10em;
+  height: 12em;
 }
 
+.data-article {
+  width: 50%;
+}
 
+.data-graphic {
+  height: 6em;
+}
+
+.label {
+  font-size: 12px;
+}
 
 
 
