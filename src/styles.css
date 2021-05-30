@@ -9,7 +9,13 @@ body {
   /* sets the default font to 16px */
   font-family: "Verdana", sans-serif;
   text-align: center;
-  margin: 0;
+  margin: .2em;
+  background-color: black;
+}
+
+body {
+  background-color: white;
+  border-radius: 25px;
 }
 
 .smol-nav-hdr,
@@ -20,7 +26,8 @@ body {
   /* justify-content: center; */
   justify-content: space-around;
   align-items: center;
-  height: 4em;
+  height: 3em;
+  padding: 1em;
   /* background-color: rosybrown; */
 }
 
