@@ -46,8 +46,8 @@ body {
   border: 2px solid cornflowerblue;
 }
 
-.smol-content-hdr {
-
+.name-hdr {
+  font-family: 'Beth Ellen', cursive;
 }
 
 .data-sec {
@@ -65,6 +65,14 @@ body {
 
 .data-graphic {
   height: 6em;
+}
+
+.plant-details-table {
+  margin: .5em;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 0 0 25px cornflowerblue;
 }
 
 .label {
