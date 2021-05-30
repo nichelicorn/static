@@ -2,28 +2,14 @@
   border: 1px solid turquoise;
 }
 
-html {
+html,
+body {
   font-size: 16px;
   /* font-size: 100%; */
   /* sets the default font to 16px */
   font-family: "Verdana", sans-serif;
   text-align: center;
-}
-
-body {
-  background: cover;
-
-}
-
-.smol-nav-hdr,
-.hdr-nav,
-.smol-content-hdr {
-  display: flex;
-  flex-flow: row;
-  /* justify-content: center; */
-  justify-content: space-around;
-  align-items: center;
-  height: 4em;
+  margin: 0;
 }
 
 .smol-btn {
@@ -38,11 +24,17 @@ body {
   box-shadow: 0 0 25px turquoise;
 }
 
-/* .smol-content-hdr {
+
+.smol-nav-hdr,
+.hdr-nav,
+.smol-content-hdr {
   display: flex;
-  flex-direction: row;
+  flex-flow: row;
+  /* justify-content: center; */
   justify-content: space-around;
-} */
+  align-items: center;
+  height: 4em;
+}
 
 .data-sec {
   display: flex;
@@ -60,13 +52,22 @@ body {
 }
 
 .label {
-  font-size: 12px;
+  font-size: 8px;
+}
+
+.table-img {
+  height: 15em;
+  border-radius: 15px;
+}
+
+table {
+  text-align: left;
 }
 
 caption {
+  text-align: center;
   font-size: 18px;
 }
-
 
 
 /* Media Queries */
