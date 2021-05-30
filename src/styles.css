@@ -12,10 +12,23 @@ body {
 
 }
 
-.smol-nav-hdr {
+.smol-nav-hdr,
+.hdr-nav {
   display: flex;
   flex-flow: row;
   justify-content: center;
   align-items: center;
   height: 4em;
+}
+
+.smol-btn {
+  height: 4em;
+  width: 4em;
+  margin: 0.7em;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.smol-btn:hover {
+  box-shadow: 0 0 25px turquoise;
 }
