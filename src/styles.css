@@ -144,4 +144,11 @@ body {
   .hdr-nav {
     flex-direction: row-reverse;
   }
+
+  .search-input {
+    width: 39em;
+    height: 4.5em;
+    border: 2px solid black;
+    margin: 0 0 0 .3em;
+  }
 }
