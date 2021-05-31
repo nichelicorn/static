@@ -64,7 +64,7 @@
       <section class="content-sec">
         <div class="plant-table-container">
           <div class="table-hdr">
-            <h3>Araucaria heterophylla</h3>
+            <h2>Araucaria heterophylla</h2>
             <button type="button" class="smol-btn" id="editBtn" alt="a scissors emoji. click to edit this plant">✂️</button>
           </div>
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/AraucariaHfoliage.jpg/1280px-AraucariaHfoliage.jpg" alt="the mature foliage of Norfolk Island pine - several small needles are set in a spiral pattern around the stem, each branch having numerous stems" class="table-img">
@@ -99,19 +99,32 @@
           </table>
         </div>
         <div class="share-container">
-          <div class="share-buttons">
-            <button type="button" name="button">facebook</button>
-            <button type="button" name="button">instagram</button>
-            <button type="button" name="button">reddit</button>
-            <button type="button" name="button">snapchat</button>
-            <button type="button" name="button">twitter</button>
-          </div>
+          <button type="button" class="btn"id="facebookBtn">
+            <img class="btn-img" src="../assets/facebook.svg" alt="facebook logo. click here to post this plant to facebook">
+            <p>facebook</p>
+          </button>
+          <button type="button" class="btn"id="instaBtn">
+            <img class="btn-img" src="../assets/instagram.svg" alt="instagram logo. click here to post this plant to instagram">
+            <p>instagram</p>
+          </button>
+          <button type="button" class="btn"id="redditBtn">
+            <img class="btn-img" src="../assets/reddit.svg" alt="reddit logo. click here to post this plant to reddit">
+            <p>reddit</p>
+          </button>
+          <button type="button" class="btn"id="snapchatBtn">
+            <img class="btn-img" src="../assets/snapchat.svg" alt="snapchat logo. click here to post this plant to snapchat">
+            <p>snapchat</p>
+          </button>
+          <button type="button" class="btn"id="twitterBtn">
+            <img class="btn-img" src="../assets/twitter.svg" alt="twitter logo. click here to post this plant to twitter">
+            <p>twitter</p>
+          </button>
           <div class="share-links">
-            <h5>🌐 share this plant on your site!</h5>
-            <p>you can share your plant cards by pasting the link below to your text editor</p>
+            <h3>🌐 Share this plant on your site!</h3>
+            <p>You can share this plant database on your own site by pasting the link below.</p>
             <div class="pseudoform">
-              <p>somelinkinformation@exalmple.url.?#</p>
-              <button type="button" name="button">👩‍💻</button>
+              <input type="text" name="copy-link" value="<script>somekindoftextinformationhere</script>" class="share-input">
+              <button type="button" name="button" class="btn med">copy</button>
             </div>
           </div>
         </div>
