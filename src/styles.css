@@ -111,6 +111,11 @@ body {
   text-align: left;
 }
 
+.table-hdr {
+  display: flex;
+  justify-content: space-between;
+}
+
 .table-body {
   padding: .2em;
   background-color: black;
