@@ -17,20 +17,35 @@ body {
 }
 
 .nav-container,
-.hdr-nav,
+.btn-section,
+/* .hdr-nav, */
 .content-hdr {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
   align-items: center;
-  height: 3em;
+  height: 5em;
   padding: 1em;
+}
+
+.nav-container {
+  height: 9em;
+}
+
+.hdr-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-section {
+  flex-flow: wrap;
+  height: 7em;
 }
 
 .smol-btn {
   height: 2em;
   width: 2em;
-  margin: 0.5em;
+  margin: 0.2em;
   border-radius: 25px;
   background-color: #fff;
   font-size: 150%;
