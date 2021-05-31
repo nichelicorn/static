@@ -113,6 +113,7 @@ body {
   padding: .2em;
   background-color: white;
   text-align: left;
+  border-collapse: separate;
 }
 
 .table-hdr {
