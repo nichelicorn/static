@@ -29,7 +29,7 @@ body {
 }
 
 .nav-container {
-  height: 9em;
+  height: 10em;
 }
 
 .hdr-nav {
@@ -56,6 +56,8 @@ body {
   box-shadow: 0 0 25px turquoise;
   border: 2px solid cornflowerblue;
 }
+
+
 
 .name-hdr {
   font-family: 'Beth Ellen', cursive;
