@@ -151,4 +151,8 @@ body {
     border: 2px solid black;
     margin: 0 0 0 .3em;
   }
+
+  .content-hdr {
+    justify-content: space-between;
+  }
 }
