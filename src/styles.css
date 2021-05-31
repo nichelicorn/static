@@ -187,6 +187,11 @@ body {
   .data-article {
     width: 20%;
   }
+
+  .share-container {
+    flex-flow: wrap;
+    justify-content: center;
+  }
 }
 
 /* 💻 Laptop-size screens */
