@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet">
+    <title>🗼 static 🗼</title>
+  </head>
+  <body>
+    <header class="nav-container">
+      <nav class="hdr-nav">
+        <div class="btn-section">
+          <button type="button" class="smol-btn" id="addNewPlantBtn" alt="a potted plant emoji. click to add a new plant to your garden">🌱</button>
+          <button type="button" class="smol-btn" id="saveBtn" alt="a green heart emoji. click to add this plant to your favorites">💚</button>
+          <button type="button" class="smol-btn" id="editBtn" alt="a scissors emoji. click to edit this plant">✂️</button>
+          <button type="button" class="smol-btn" id="lightReq" alt="an emoji of the sun, partially behind a cloud. click to view all plants with this light requirement">🌤</button>
+          <button type="button" class="smol-btn" id="addMaintTask" alt="an emoji of a gardner. click to add a maintenance task">👩‍🌾</button>
+          <button type="button" class="smol-btn" id="viewMaintCal" alt="an emoji of a calendar. click to view maintenance schedule">🗓</button>
+          <button type="button" class="smol-btn" id="menuBtn" alt="a clipboard emoji. click to view the menu">📋</button>
+        </div>
+        <form class="search-bar" action="index.html" method="get">
+          <label for="search-bar">Search</label>
+          <input type="search" class="search-input" name="search-input" placeholder="🌱🪴🌴 here by name, type, etc..." aria-label="Search this site for plants">
+          <button type="reset" name="search-button" class="smol-btn" alt="a magnifying glass emoji. click to submit search query">🔎</button>
+        </form>
+      </nav>
+    </header>
+    <main>
+      <header class="content-hdr">
+        <div class="ch-text">
+          <h2 class="name-hdr">Araucaria heterophylla</h2>
+          <p class="location">📍 Living Room, east window</p>
+        </div>
+        <div class="ch-btn-section">
+          <button type="button" class="smol-btn" id="statusBtn" alt="a green dot. click to see all plants with this status">🟢</button>
+          <button type="button" class="smol-btn" id="saveBtn" alt="a green heart emoji. click to add this plant to your favorites">💚</button>
+          <button type="button" class="smol-btn" id="lightReq" alt="an emoji of the sun, partially behind a cloud. click to view all plants with this light requirement">🌤</button>
+        </div>
+      </header>
+      <section class="data-sec">
+        <article class="data-article">
+          <img src="../assets/time.svg" alt="a black and white graphic of a clock, with an arrow indicating time has passed" class="data-graphic" id="timeElapsed">
+          <p>You have had this plant for 277 days</p>
+        </article>
+        <article class="data-article">
+          <img src="../assets/pie-chart.svg" alt="a black and white graphic of a pie chart, with 3/4 of the chart filled with black dots" class="data-graphic" id="pieChart">
+          <p>This plant receives 75% of your attention</p>
+        </article>
+        <article class="data-article">
+          <img src="../assets/graph.svg" alt="a black and white graphic of a bar graph, with 1/4 of the bars filled with black dots" class="data-graphic">
+          <p>You spend 40% of your maintenance time on this plant</p>
+        </article>
+        <article class="data-article">
+          <img src="../assets/tree.svg" alt="a black and white graphic of a family tree diagram" class="data-graphic" id="famTree">
+          <p>This plant has been cloned 3 times</p>
+        </article>
+        <article class="data-article">
+          <img src="../assets/pie-two.svg" alt="a black and white graphic of a pie chart with five sections, each filled with a different pattern" class="data-graphic" id="pieChartTwo">
+          <p>3 out of your 77 plants are Araucaria heterophylla</p>
+        </article>
+      </section>
+      <section class="content-sec">
+        <div class="plant-table-container">
+          <div class="table-hdr">
+            <h2>Araucaria heterophylla</h2>
+            <button type="button" class="smol-btn" id="editBtn" alt="a scissors emoji. click to edit this plant">✂️</button>
+          </div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/AraucariaHfoliage.jpg/1280px-AraucariaHfoliage.jpg" alt="the mature foliage of Norfolk Island pine - several small needles are set in a spiral pattern around the stem, each branch having numerous stems" class="table-img">
+          <table class="plant-table">
+            <caption class="table-caption">Plant details</caption>
+            <tbody class="table-body">
+              <tr>
+                <th scope="row">Scientific Name</th>
+                <td>Araucaria heterophylla</td>
+              </tr>
+              <tr>
+                <th scope="row">Common Name</th>
+                <td>Norfolk Island Pine, Star pine, Triangle tree</td>
+              </tr>
+              <tr>
+                <th scope="row">Date Acquired</th>
+                <td>2016-12-31</td>
+              </tr>
+              <tr>
+                <th scope="row">Light Requirement</th>
+                <td>Bright, indirect</td>
+              </tr>
+              <tr>
+                <th scope="row">Date of Last Propagation</th>
+                <td>n/a</td>
+              </tr>
+              <tr>
+                <th scope="row">Soil Requirements</th>
+                <td>Well draining soil</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="share-container">
+          <button type="button" class="btn"id="facebookBtn">
+            <img class="btn-img" src="../assets/facebook.svg" alt="facebook logo. click here to post this plant to facebook">
+            <p>facebook</p>
+          </button>
+          <button type="button" class="btn"id="instaBtn">
+            <img class="btn-img" src="../assets/instagram.svg" alt="instagram logo. click here to post this plant to instagram">
+            <p>instagram</p>
+          </button>
+          <button type="button" class="btn"id="redditBtn">
+            <img class="btn-img" src="../assets/reddit.svg" alt="reddit logo. click here to post this plant to reddit">
+            <p>reddit</p>
+          </button>
+          <button type="button" class="btn"id="snapchatBtn">
+            <img class="btn-img" src="../assets/snapchat.svg" alt="snapchat logo. click here to post this plant to snapchat">
+            <p>snapchat</p>
+          </button>
+          <button type="button" class="btn"id="twitterBtn">
+            <img class="btn-img" src="../assets/twitter.svg" alt="twitter logo. click here to post this plant to twitter">
+            <p>twitter</p>
+          </button>
+          <div class="share-links">
+            <h3>🌐 Share this plant on your site!</h3>
+            <p>You can share this plant database on your own site by pasting the link below.</p>
+            <div class="pseudoform">
+              <input type="text" name="copy-link" value="<script>somekindoftextinformationhere</script>" class="share-input">
+              <button type="button" name="button" class="btn med">copy</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer hidden">
+      <button type="button" class="smol-btn"id="facebookBtn">
+        <img src="../assets/facebook.svg" alt="facebook logo. click here to post this plant to facebook">
+      </button>
+      <button type="button" class="smol-btn"id="instaBtn">
+        <img src="../assets/instagram.svg" alt="instagram logo. click here to post this plant to instagram">
+      </button>
+      <button type="button" class="smol-btn"id="redditBtn">
+        <img src="../assets/reddit.svg" alt="reddit logo. click here to post this plant to reddit">
+      </button>
+      <button type="button" class="smol-btn"id="snapchatBtn">
+        <img src="../assets/snapchat.svg" alt="snapchat logo. click here to post this plant to snapchat">
+      </button>
+      <button type="button" class="smol-btn"id="twitterBtn">
+        <img src="../assets/twitter.svg" alt="twitter logo. click here to post this plant to twitter">
+      </button>
+    </footer>
+  </body>
+</html>
