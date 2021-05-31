@@ -235,8 +235,26 @@ body {
     width: 100%;
   }
 
+  .content-hdr {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .data-sec {
+    flex-direction: row;
+  }
+
+  .data-article {
+    width: 15%;
+  }
+
   .plant-table-container {
     width: 65%;
+  }
+
+  .share-container {
+    flex-direction: column;
+    justify-content: space-evenly;
   }
 
   .share-input {
