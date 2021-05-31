@@ -140,4 +140,8 @@ body {
   html {
     font-size: 22px;
   }
+
+  .hdr-nav {
+    flex-direction: row-reverse;
+  }
 }
