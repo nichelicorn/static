@@ -16,9 +16,9 @@ body {
   border-radius: 25px;
 }
 
-.smol-nav-hdr,
+.nav-container,
 .hdr-nav,
-.smol-content-hdr {
+.content-hdr {
   display: flex;
   flex-flow: row;
   justify-content: space-around;
@@ -110,6 +110,8 @@ body {
   html {
     font-size: 20px;
   }
+
+
 }
 
 @media screen and (min-width: 1000px) {
