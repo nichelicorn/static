@@ -152,7 +152,22 @@ body {
     margin: 0 0 0 .3em;
   }
 
-  .content-hdr {
+  .ch-row1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: space-between;
+    height: 5em;
   }
+
+  .name-hdr {
+    font-size: 3em;
+    padding: 1em;
+  }
+
+  .ch-btn-section {
+    padding: 1em;
+  }
+
 }
