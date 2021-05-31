@@ -162,6 +162,7 @@ body {
 }
 
 /* Media Queries */
+/* 📱 Mobile-size screens */
 @media screen and (min-width: 320px) {
   html,
   body {
@@ -169,12 +170,22 @@ body {
   }
 }
 
+/* 📱 Tablet-size screens */
 @media screen and (min-width: 540px) {
   html {
     font-size: 20px;
   }
+
+  .data-sec {
+    flex-flow: wrap;
+  }
+
+  .data-article {
+    width: 20%;
+  }
 }
 
+/* 💻 Laptop-size screens */
 @media screen and (min-width: 1000px) {
   html {
     font-size: 22px;
