@@ -9,7 +9,7 @@ A solo challenge to re-create a static desktop layout. The challenge allows for 
 ![a gif of the desktop and tablet layouts, with the page layout shifting with the screen size](/assets/desktop-tablet.gif)
 
 
-## The dashboard to be replicated (with creative license 👩‍🎨)
+## The dashboard to be replicated
 ![a desktop layout with a header, several buttons, and a table outlining a job description](/assets/static-comp-challenge-3.jpg)
 
 
