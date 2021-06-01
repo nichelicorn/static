@@ -1,8 +1,16 @@
 # 🗼 static
-A static comp re-creation
+A solo challenge to re-create a static desktop layout. The challenge allows for some creative licence, though the layout is meant to be replicated exactly.
 
 ## See the app in action
-upload a gif or video or jpg
+### Mobile dashboard
+![a gif of the mobile layout of the page, scrolling top to bottom](/assets/mobile.gif)
+
+### Desktop to tablet dashboard
+![a gif of the desktop and tablet layouts, with the page layout shifting with the screen size](/assets/desktop-tablet.gif)
+
+
+## The dashboard to be replicated (with creative license 👩‍🎨)
+![a desktop layout with a header, several buttons, and a table outlining a job description](/assets/static-comp-challenge-3.jpg)
 
 
 ## Author
