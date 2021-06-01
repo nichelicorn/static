@@ -1,7 +1,7 @@
 # 🗼 static
 A solo challenge to re-create a static desktop layout. The challenge allows for some creative licence, though the layout is meant to be replicated exactly.
 
-## See the app in action
+## [See the app in action](https://nichelicorn.github.io/static/src/index.html)
 ### Mobile dashboard
 ![a gif of the mobile layout of the page, scrolling top to bottom](/assets/mobile.gif)
 
