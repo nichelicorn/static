@@ -5,6 +5,9 @@
 <!-- ## Refactoring! -->
 
 
+### Resources
+* [`<hr>` The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) on MDN
+
 <!-- # 🗼 static -->
 <!-- A solo challenge to re-create a static desktop layout. The challenge allows for some creative licence, though the layout is meant to be replicated exactly. -->
 
