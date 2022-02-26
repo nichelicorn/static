@@ -46,7 +46,13 @@
 .page-logo {
   display: flex;
   flex-direction: row;
-  margin-top: 2.5rem;
+  align-items: center; 
+  margin-top: 1.5rem;
+}
+
+.page-logo h1 {
+  font-family: 'Beth Ellen', cursive;
+  text-size: 2.5rem;
 }
 
 .logo {
