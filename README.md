@@ -7,6 +7,7 @@
 
 ### Resources
 * [`<hr>` The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) on MDN
+* [Basic Icons Pack](https://www.flaticon.com/packs/basic-icons-10?style_id=1004&family_id=254&group_id=296) by Icongeek26
 
 <!-- # 🗼 static -->
 <!-- A solo challenge to re-create a static desktop layout. The challenge allows for some creative licence, though the layout is meant to be replicated exactly. -->
