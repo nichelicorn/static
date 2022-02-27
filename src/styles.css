@@ -94,6 +94,13 @@ body {
 }
 
 .card-hdr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: darkseagreen;
-  height: 25%;
+  height: 30%;
+}
+
+.large {
+  height: 3rem;
 }
