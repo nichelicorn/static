@@ -88,4 +88,5 @@ body {
 .card {
   background-color: ghostwhite;
   box-shadow: 5px 5px 5px gray;
+  height: 35vh;
 }
