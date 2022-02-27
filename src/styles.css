@@ -99,8 +99,9 @@ body {
   justify-content: space-between;
   background-color: darkseagreen;
   height: 30%;
+  padding: 1rem;
 }
 
 .large {
-  height: 3rem;
+  height: 4rem;
 }
