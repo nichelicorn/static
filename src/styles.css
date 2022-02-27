@@ -79,5 +79,8 @@ body {
 }
 
 .card-display {
+  display: grid;
+  grid: repeat(2, 15%) / auto-flow;
+  grid-gap: 1rem;
   margin: 2.5rem 1rem;
 }
