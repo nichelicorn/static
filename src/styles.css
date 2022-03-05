@@ -91,7 +91,8 @@ body {
 }
 
 .card-img {
-  background-image: url("/assets/Ficus-elastica.JPG");
+  background: linear-gradient(0deg, rgba(130, 130, 130, 0.3), rgba(2, 36, 16, 0.666)), url("/assets/Ficus-elastica.JPG");
+  /* background-image: url("/assets/Ficus-elastica.JPG"); */
   background-size: cover;
 }
 
