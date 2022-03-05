@@ -95,7 +95,7 @@ body {
 
 .card-img {
   background-image: url("/assets/Ficus-elastica.JPG");
-  
+  background-size: cover;
 }
 
 .card-hdr {
