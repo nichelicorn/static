@@ -126,10 +126,12 @@ body {
 
 .card-details {
   line-height: 1.5rem;
+  /* this is messing with the margin-right property on the .card-display */
   padding: 1rem;
 }
 
 .card-ref {
   background-color: lightgreen;
-  margin: 1rem 0;
+  /* margin: 1rem 0; */
+  /* padding: .5rem; */
 }
