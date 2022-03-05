@@ -9,6 +9,11 @@
 * [`<hr>` The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) on MDN
 * [Outline gradient icons by Icongeek26](https://www.flaticon.com/authors/icongeek26/outline-gradient)
 * [Pexels API](https://www.pexels.com/api/)
+* [Add gradient overlay to background image](https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image)
+* []()
+* []()
+* []()
+* []()
 
 <!-- # 🗼 static -->
 <!-- A solo challenge to re-create a static desktop layout. The challenge allows for some creative licence, though the layout is meant to be replicated exactly. -->
