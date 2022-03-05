@@ -142,3 +142,7 @@ body {
 .card-ref > a {
   padding: 1rem;
 }
+
+.card-ref > h3, h5 {
+  margin-top: 1rem;
+}
