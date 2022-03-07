@@ -130,20 +130,30 @@ body {
   /* padding: 1rem; */
 }
 
-.card-details > h3, h5, a, p {
-  /* border: 5px solid fuchsia; */
-  padding: 0 1rem;
+.card-details >  h3, h5 {
+  /* border: 5px solid fuchsia;  */
+  margin-top: 1rem;
+
+ }
+
+ .card-details > h3 {
+   margin-left: 1rem;
+ }
+
+ .card-details > p {
+  margin-left: 1rem;
+}
+
+.card-details > h5 {
+  margin-left: 1rem;
 }
 
 .card-ref {
   background-color: lightgreen;
+  margin-top: 1rem;
 }
 
 .card-ref > a {
-  padding: 1rem;
-}
 
-.card-ref >  a, h3, h5 {
- /* border: 5px solid fuchsia;  */
- margin-top: 1rem;
+  padding: 1rem;
 }

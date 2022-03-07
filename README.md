@@ -1,16 +1,28 @@
 # Static Comp
 
-<!-- This static site re-creates a comp layout. The site contains two pages - a dashboard, and a profile. -->
+This static site re-creates a comp layout. The site contains two pages - a dashboard displaying a card layout, and a profile, the details of an selected card.
 
-<!-- ## Refactoring! -->
-
+## Notes
+### CSS Box Model
+* The basic box model: when rendering a document, the browser engine will represent each element as a rectangular box. These boxes have predefined styles and determine size, position, and properties of the box.
+* Each box contains the content, padding, border, and margin
+* Content area - contains the actual content of an element (ex. text, images, video, etc); its dimensions equal do the dimensions of the content (ex. an image of 700 x 700 px will render a 700 x 700 px content area)
+    * If the `box-sizing` property is set to `content-box` and the element is a block element, the content area's size can be explicitly defined with the `width` and `height` properties, with or without the `min-` or `max-` prefixes
+* Padding area - bounded by the padding edge; extends the content area to include the element's padding; its dimensions are the `padding-box` width and height
+    * thickness of padding is determined using the `padding` properties, with or without a directional suffix (`-top`, `-right`, etc.)
+* Border area - bounded by the border edge; extends the padding area to include the element's borders; its dimensions are the `border-box width` and ` height`
+    * thickness of borders can be determined using the shorthand `border` or its directional properties (`-bottom`, `-left`, etc.); also accepts `min-` or `max-` properties
+    * if a background is set on a box, it will extend to the outer edge of the border (it extends underneath the border in z-ordering); use `background-clip` to alter this behavior
+* Margin area - bounded by the margin edge; extends the border area to include an empty area used to separate an elements from its neighbors
+    * size of the margin area is determined using `margin` or `margin-` directional properties
+    * for non-replaced inline elements, the amount of space taken up is determined by the `line-height` property
 
 ### Resources
 * [`<hr>` The Thematic Break (Horizontal Rule) element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/hr) on MDN
 * [Outline gradient icons by Icongeek26](https://www.flaticon.com/authors/icongeek26/outline-gradient)
 * [Pexels API](https://www.pexels.com/api/)
 * [Add gradient overlay to background image](https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image)
-* []()
+* [Intro to the basic CSS box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model) on MDN
 * []()
 * []()
 * []()
