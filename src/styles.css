@@ -163,6 +163,7 @@ body {
 .card-ref {
   background-color: lightgreen;
   margin-top: 1rem;
+  width: 88%;
 }
 
 .card-ref > a {
