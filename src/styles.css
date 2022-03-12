@@ -168,6 +168,6 @@ body {
 }
 
 .card-ref > a {
-
   padding: 1rem;
+  text-decoration: none;
 }
