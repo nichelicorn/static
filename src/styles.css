@@ -93,7 +93,8 @@ body {
 /* Card styles */
 .card {
   background-color: ghostwhite;
-  box-shadow: 5px 5px 5px gray;
+  /* box-shadow: 5px 5px 5px gray; */
+  box-shadow: 1px 1px 10px 1px gray;
   height: 65vh;
   margin-bottom: .5rem;
 }
