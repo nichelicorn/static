@@ -87,7 +87,7 @@ body {
   grid: repeat(2, 15%) / auto-flow;
   grid-gap: 1rem;
   margin: 2.5rem 1rem;
-  margin-right: 2rem;
+  
 }
 
 /* Card styles */
