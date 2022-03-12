@@ -134,6 +134,7 @@ body {
 
 .card-details {
   box-sizing: inherit;
+  color: slategrey;
   line-height: 1.5rem;
   /* this is messing with the margin-right property on the .card-display */
   /* padding: 1rem; */
@@ -144,7 +145,7 @@ body {
   /* margin-top: 1rem; */
   /* margin-left: 1rem; */
   margin: 1rem;
-  background-color: aqua;
+  /* background-color: aqua; */
  }
 
  .card-details > h3 {
