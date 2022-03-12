@@ -164,6 +164,7 @@ body {
   background-color: lightgreen;
   margin-top: 1rem;
   width: 88%;
+  font-size: .9rem;
 }
 
 .card-ref > a {
