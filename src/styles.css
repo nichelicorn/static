@@ -1,268 +1,185 @@
-html,
-body {
-  font-size: 16px;
-  font-family: "Verdana", sans-serif;
-  text-align: center;
-  background-color: black;
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+* {
+  box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 body {
-  background-color: white;
-  border-radius: 25px;
-}
-
-.nav-container,
-.btn-section,
-.content-hdr {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
-  align-items: center;
-  margin: 1em;
-}
-
-.hdr-nav {
-  display: flex;
-  flex-direction: column;
-}
-
-.btn-section {
-  flex-flow: wrap;
-}
-
-.smol-btn,
-.btn {
-  height: 2em;
-  width: 2em;
-  margin: 0.2em;
-  border-radius: 25px;
-  background-color: #fff;
-  font-size: 150%;
-  border: 2px solid black;
-}
-
-.btn {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  width: 8em;
-}
-
-.med {
-  width: 3em;
-}
-
-.btn-img {
-  height: 1em;
-}
-
-.smol-btn:hover,
-.btn:hover {
-  box-shadow: 0 0 25px turquoise;
-  border: 2px solid cornflowerblue;
-}
-
-.search-bar {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.name-hdr {
-  font-family: 'Beth Ellen', cursive;
-}
-
-.data-sec {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: 1em;
-  padding: .5em;
-}
-
-.data-article {
-  width: 50%;
-  padding: .5em;
-}
-
-.data-graphic {
-  height: 6em;
-  margin: .5em;
-  background-color: transparent;
-}
-
-.data-article:hover {
-  box-shadow: 0 0 25px cornflowerblue;
   background-color: azure;
-  border-radius: 25px;
-}
-
-.plant-table-container,
-.share-container {
-  display: flex;
-  flex-direction: column;
-  margin: .5em;
-  padding: 1em;
-  background-color: black;
-  color: white;
-  border-radius: 25px;
-}
-
-.plant-table {
-  padding: .2em;
-  background-color: white;
-  text-align: left;
-  border-collapse: separate;
-}
-
-.table-hdr {
-  display: flex;
-  justify-content: space-between;
-}
-
-.table-body {
-  padding: .2em;
-  background-color: black;
-}
-
-.label {
-  font-size: 8px;
-}
-
-.table-img {
-  border-radius: 15px;
-  padding: .5em;
-}
-
-.table-caption {
-  text-align: center;
-  font-size: 18px;
-}
-
-.share-container {
-  justify-content: flex-start;
-  align-items: center;
-}
-
-.pseudoform {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: .5em;
-  padding: 1em;
-  background-color: black;
-  color: white;
-  border-radius: 25px;
-}
-
-/* Media Queries */
-/* 📱 Mobile-size screens */
-@media screen and (min-width: 320px) {
-  html,
-  body {
-    font-size: 14px;
-  }
-}
-
-/* 📱 Tablet-size screens */
-@media screen and (min-width: 540px) {
-  html {
-    font-size: 20px;
-  }
-
-  .content-hdr {
-    flex-direction: column;
-  }
-
-  .data-sec {
-    flex-flow: wrap;
-  }
-
-  .data-article {
-    width: 20%;
-  }
-
-  .share-container {
-    flex-flow: wrap;
-    justify-content: center;
-  }
-}
-
-/* 💻 Laptop-size screens */
-@media screen and (min-width: 1000px) {
-  html {
-    font-size: 22px;
-  }
-
-  .hdr-nav {
-    flex-direction: row-reverse;
-  }
-
-  .search-input,
-  .share-input {
-    width: 39em;
-    height: 4.5em;
-    border: 2px solid black;
-    margin: 0 0 0 .3em;
-  }
-
-  .ch-text {
-    text-align: left;
-  }
-
-  .name-hdr {
-    font-size: 2.5em;
-    margin: 0
-  }
-
-  .location {
-    margin: 0;
-  }
-
-  .ch-btn-section {
-    padding: 1em;
-  }
-
-  .content-sec {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-  }
-
-  .content-hdr {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .data-sec {
-    flex-direction: row;
-  }
-
-  .data-article {
-    width: 15%;
-  }
-
-  .plant-table-container {
-    width: 65%;
-  }
-
-  .share-container {
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-
-  .share-input {
-    width: 20em;
-  }
 }
 
 .hidden {
   display: none;
+}
+
+/* Page header styles */
+.page-header {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  justify-content: space-between;
+  background-color: rgb(23, 41, 34);
+  color: rgb(248, 248, 255);
+  height: 23vh;
+}
+
+.page-links {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  font-size: 1.2rem;
+  margin: 3rem 2rem;
+  text-transform: uppercase;
+}
+
+.page-admin {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  margin: 3rem 2rem;
+}
+
+.icon {
+  height: 1.2rem;
+  margin-right: 1rem;
+}
+
+.link {
+  margin-right: 3.5rem;
+}
+
+.page-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  margin-top: 1.5rem;
+}
+
+.page-logo h1 {
+  font-family: 'Beth Ellen', cursive;
+}
+
+.logo {
+  height: 2.5rem;
+}
+
+/* Content area styles */
+.main {
+  background-color: azure;
+}
+
+.dashboard-hdr {
+  font-size: 2rem;
+  margin: 2.5rem 1rem;
+}
+
+/* Card display styles */
+.card-display {
+  display: grid;
+  grid: repeat(2, 15%) / auto-flow;
+  grid-gap: 1rem;
+  margin: 2.5rem 1rem;
+  
+}
+
+/* Card styles */
+.card {
+  background-color: ghostwhite;
+  /* box-shadow: 5px 5px 5px gray; */
+  box-shadow: 1px 1px 10px 1px gray;
+  height: 65vh;
+  margin-bottom: .5rem;
+}
+
+.card-img {
+  background: linear-gradient(0deg, rgba(130, 130, 130, 0.3), rgba(2, 36, 16, 0.666)), url("/assets/Ficus-elastica.JPG");
+  /* background-image: url("/assets/Ficus-elastica.JPG"); */
+  background-size: cover;
+}
+
+.card-hdr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: darkseagreen;
+  height: 33%;
+  padding: 1rem;
+}
+
+.large {
+  height: 4.5rem;
+}
+
+.card-hdr > .large {
+  background-color: ghostwhite;
+  border-radius: 50px;
+}
+
+.card-views {
+  color: ghostwhite;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-views > .card-stat {
+  font-size: 2.3rem;
+}
+
+.card-details {
+  box-sizing: inherit;
+  color: slategrey;
+  line-height: 1.5rem;
+  /* this is messing with the margin-right property on the .card-display */
+  /* padding: 1rem; */
+}
+
+.card-details >  h3, h5 {
+  /* border: 5px solid fuchsia;  */
+  /* margin-top: 1rem; */
+  /* margin-left: 1rem; */
+  /* margin: 1rem; */
+  margin: 1.5rem 1rem 0 1rem;
+    /* background-color: aqua; */
+ }
+
+ .card-details > h3 {
+ }
+
+ .card-details > p {
+  margin-left: 1rem;
+}
+
+.card-details > h5 {
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+
+.card-ref {
+  background-color: lightgreen;
+  margin-top: 1rem;
+  width: 88%;
+  font-size: .9rem;
+}
+
+.card-ref > a {
+  color: darkgreen;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.playlist {
+  font-size: 1.2rem;
+}
+
+.card-stat {
+  color: darkgreen;
+  font-size: 2.5rem;
 }
