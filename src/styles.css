@@ -191,7 +191,8 @@ body {
 }
 
 .side-nav {
-  background-color: orchid;
+  background-color: darkorchid;
+  color: ghostwhite;
   /* border: 5px solid darkorchid; */
 }
 
