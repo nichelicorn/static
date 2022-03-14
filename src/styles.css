@@ -182,8 +182,22 @@ body {
 }
 
 /* Open card styles */
+.open-card {
+  /* border: 5px solid yellow; */
+  background-color: lightyellow;
+  display: grid;
+  grid-template-columns: 15% 85%;
+  
+}
+
 .side-nav {
-  background-color: darkorchid;
+  background-color: orchid;
+  /* border: 5px solid darkorchid; */
+}
+
+.card-details {
+  /* border: 5px solid darkseagreen; */
+  background-color: lightseagreen;
 }
 
 /* 🙈 Hide that shit! */
