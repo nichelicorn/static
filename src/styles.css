@@ -190,12 +190,19 @@ body {
   
 }
 
+/* Popout navigation bar */
+/* This is currently a static element, but will eventually slide out when menu button clicked */
 .side-nav {
   background-color: darkorchid;
   color: ghostwhite;
   /* border: 5px solid darkorchid; */
 }
 
+.nav-id, .nav-main, .nav-admin, .nav-categories {
+  padding: 1rem;
+}
+
+/*  Details of opened card */
 .card-details {
   /* border: 5px solid darkseagreen; */
   background-color: lightseagreen;
