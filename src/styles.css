@@ -1,3 +1,4 @@
+/* 📃 All page / element styles */
 html {
   box-sizing: border-box;
 }
@@ -14,10 +15,6 @@ html {
 
 body {
   background-color: azure;
-}
-
-.hidden {
-  display: none;
 }
 
 /* Page header styles */
@@ -182,4 +179,14 @@ body {
 .card-stat {
   color: darkgreen;
   font-size: 2.5rem;
+}
+
+/* Open card styles */
+.side-nav {
+  background-color: darkorchid;
+}
+
+/* 🙈 Hide that shit! */
+.hidden {
+  display: none;
 }
