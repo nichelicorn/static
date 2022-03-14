@@ -220,6 +220,10 @@ body {
 }
 
 .nav-name {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
   margin-top: .6rem;
 }
 
@@ -231,6 +235,7 @@ body {
 
 .nav-icon {
   height: 1rem;
+
 }
 
 /*  Details of opened card */
