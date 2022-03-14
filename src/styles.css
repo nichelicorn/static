@@ -243,7 +243,9 @@ body {
   margin: 1rem 0;
 }
 
-
+.link-with-icon {
+  margin: .9rem 0;
+}
 
 /*  Details of opened card */
 .card-details {
