@@ -193,7 +193,8 @@ body {
 /* Popout navigation bar */
 /* This is currently a static element, but will eventually slide out when menu button clicked */
 .side-nav {
-  background-color: darkorchid;
+  /* background-color: darkorchid; */
+  background-color: rgb(41, 80, 65);
   color: ghostwhite;
   /* border: 5px solid darkorchid; */
 }
