@@ -239,6 +239,7 @@ body {
 
 .side-nav > hr {
   color: rgba(31, 61, 50, 0.753);
+  margin: 1rem 0;
 }
 
 /*  Details of opened card */
