@@ -219,6 +219,20 @@ body {
   width: 6rem;
 }
 
+.nav-name {
+  margin-top: .6rem;
+}
+
+.nav-name > span {
+  /* border: 5px solid fuchsia; */
+  /* margin-left: .5rem; */
+  margin: 0 .5rem;
+}
+
+.nav-icon {
+  height: 1rem;
+}
+
 /*  Details of opened card */
 .card-details {
   /* border: 5px solid darkseagreen; */
