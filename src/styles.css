@@ -235,7 +235,10 @@ body {
 
 .nav-icon {
   height: 1rem;
+}
 
+.side-nav > hr {
+  color: rgba(31, 61, 50, 0.753);
 }
 
 /*  Details of opened card */
