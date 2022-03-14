@@ -199,7 +199,22 @@ body {
 }
 
 .nav-id, .nav-main, .nav-admin, .nav-categories {
+  display: flex;
+  flex-flow: column;
+  /* align-items: center; */
   padding: 1rem;
+}
+
+.nav-id {
+  align-items: center;
+}
+
+.nav-icon {
+  background: url("/assets/Ficus-elastica.JPG");
+  background-size: cover;
+  height: 6rem;
+  margin-top: 1rem;
+  width: 6rem;
 }
 
 /*  Details of opened card */
