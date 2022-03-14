@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap" rel="stylesheet"> 
 </head>
 <body>
-  <header class="page-header">
+  <header class="page-header hidden">
     <div class="page-links">
       <img class="icon" src="/assets/share.png"/>
       <span class="link">Shares</span>
@@ -35,7 +35,7 @@
     </div>
   </header>
   <main class="main">
-    <section id="dashboard" class="dashboard">
+    <section id="dashboard" class="dashboard hidden">
       <header class="dashboard-hdr">
         <h2>Shares</h2>
       </header>
@@ -186,78 +186,81 @@
         </article>
       </section>
     </section>
-    <section id="open-card" class="open-card hidden">
-      <nav id="card-nav">
-        <div class="card-ident">
-          <img />
-          <div>
-            <p>This Person's Name</p>
-            <img />
+    <section id="open-card" class="open-card">
+      <nav id="side-nav" class="side-nav">
+        <div class="nav-id">
+          <img class="nav-img"/>
+          <div class="nav-name">
+            <span>Ficus elastica</span>
+            <img class="nav-icon" src="/assets/menu-open.png"/>
           </div>
         </div>
-        <div class="card-nav-main">
+        <hr>
+        <div class="nav-main">
           <h6>Main</h6>
           <div class="link-with-icon">
-            <img />
-            <p>Home</p>
+            <img class="nav-icon" src="/assets/home.png"/>
+            <span>Home</span>
           </div>
           <div class="link-with-icon">
-            <img />
-            <p>Jobs</p>
+            <img class="nav-icon" src="/assets/trowel.png"/>
+            <span>Jobs</span>
           </div>
           <div class="link-with-icon">
-            <img />
-            <p>Resumes</p>
+            <img class="nav-icon" src="/assets/resume.png"/>
+            <span>Resumes</span>
           </div>
           <div class="link-with-icon">
-            <img />
-            <p>Tasks</p>
+            <img class="nav-icon" src="/assets/checklist.png"/>
+            <span>Tasks</span>
           </div>
           <div class="link-with-icon">
-            <img />
-            <p>Calendar</p>
+            <img class="nav-icon" src="/assets/calendar(1).png"/>
+            <span>Calendar</span>
           </div>
         </div>
-        <div class="card-nav-admin">
+        <hr>
+        <div class="nav-admin">
           <h6>Admin</h6>
           <div class="link-with-icon">
-            <img />
-            <p>Users</p>
+            <img class="nav-icon" src="/assets/leaves.png"/>
+            <span>Users</span>
           </div>
           <div class="link-with-icon">
-            <img />
-            <p>Notifications</p>
+            <img class="nav-icon" src="/assets/quill.png"/>
+            <span>Notifications</span>
           </div>
           <div class="link-with-icon">
-            <img />
-            <p>Workflows</p>
+            <img class="nav-icon" src="/assets/agriculture.png"/>
+            <span>Workflows</span>
           </div>
           <div class="link-with-icon">
-            <img />
-            <p>Job boards</p>
+            <img class="nav-icon" src="/assets/growth.png"/>
+            <span>Job boards</span>
           </div>
           <div class="link-with-icon">
-            <img />
-            <p>Social</p>
+            <img class="nav-icon" src="/assets/value.png"/>
+            <span>Social</span>
           </div>
         </div>
-        <div class="card-nav-categories">
+        <hr>
+        <div class="nav-categories">
           <h6>Categories</h6>
           <div class="link-with-input">
             <input type="checkbox">
-            <p>Administrative</p>
+            <span>Administrative</span>
           </div>
           <div class="link-with-input">
             <input type="checkbox">
-            <p>Design</p>
+            <span>Design</span>
           </div>
           <div class="link-with-input">
             <input type="checkbox">
-            <p>Executive</p>
+            <span>Executive</span>
           </div>
           <div class="link-with-input">
             <input type="checkbox">
-            <p>Human Resources</p>
+            <span>Human Resources</span>
           </div>
         </div>
 
