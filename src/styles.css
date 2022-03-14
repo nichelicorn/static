@@ -212,6 +212,7 @@ body {
 .nav-icon {
   background: url("/assets/Ficus-elastica.JPG");
   background-size: cover;
+  border-radius: 50px;
   height: 6rem;
   margin-top: 1rem;
   width: 6rem;
