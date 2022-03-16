@@ -252,20 +252,23 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: start;
-  font-size: .9rem;
   text-transform: uppercase;
 }
 
-.link-with-icon > span {
+.link-with-icon > span,
+.link-with-input > span {
+  font-size: .9rem;
   margin-left: .7rem;
+  
 }
-
-/* input[type=checkbox] {
-  accent-color: yellow;
-} */
 
 .checkbox {
   accent-color: yellow;
+}
+
+.link-with-input:nth-child(3) > input {
+  accent-color: blue;
+  background-color: blue;
 }
 
 /*  Details of opened card */
