@@ -248,8 +248,35 @@ body {
 }
 
 .link-with-icon {
-  font-size: .9rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
   text-transform: uppercase;
+}
+
+.link-with-icon > span,
+.link-with-input > span {
+  font-size: .9rem;
+  margin-left: .7rem;
+  
+}
+
+.checkbox {
+  accent-color: yellow;
+}
+
+.link-with-input:nth-child(3) > input {
+  accent-color: blue;
+  /* background-color: blue; */
+}
+
+.link-with-input:nth-child(4) > input {
+  accent-color: red;
+}
+
+.link-with-input:nth-child(5) > input {
+  accent-color: green;
 }
 
 /*  Details of opened card */
