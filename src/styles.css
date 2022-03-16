@@ -256,6 +256,10 @@ body {
   text-transform: uppercase;
 }
 
+.link-with-icon > span {
+  margin-left: .7rem;
+}
+
 /*  Details of opened card */
 .card-details {
   /* border: 5px solid darkseagreen; */
