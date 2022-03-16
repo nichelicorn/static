@@ -260,6 +260,14 @@ body {
   margin-left: .7rem;
 }
 
+/* input[type=checkbox] {
+  accent-color: yellow;
+} */
+
+.checkbox {
+  accent-color: yellow;
+}
+
 /*  Details of opened card */
 .card-details {
   /* border: 5px solid darkseagreen; */
