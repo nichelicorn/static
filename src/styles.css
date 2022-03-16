@@ -268,8 +268,12 @@ body {
 
 .link-with-input:nth-child(3) > input {
   accent-color: blue;
-  background-color: blue;
+  /* background-color: blue; */
 }
+
+.link-with-input:nth-child(4) > input {
+  accent-color: red;
+ }
 
 /*  Details of opened card */
 .card-details {
